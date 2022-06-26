@@ -1,0 +1,14 @@
+{
+  "cSpell.words": [
+    "cardcuration",
+    "cardmanagement",
+    "consts",
+    "heroicons",
+    "insu",
+    "JSBI",
+    "paymoney",
+    "prefetching"
+  ],
+  // 모듈
+  "typescript.preferences.importModuleSpecifier": "shortest"
+}
