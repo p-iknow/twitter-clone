@@ -3,7 +3,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "eslint pages src",
+    "lint:fix": "eslint pages src --fix",
+    "check-types": "tsc --p ./tsconfig.json --noEmit"
   },
   "dependencies": {
     "next": "latest",
