@@ -1,3 +1,4 @@
+import { Sidebar } from 'components';
 import type { NextPage } from 'next';
 import Head from 'next/head';
 
@@ -9,7 +10,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        {/* Sidebar */}
+        <Sidebar />
         {/* Feed */}
         {/* Widgets */}
       </main>
