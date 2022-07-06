@@ -20,7 +20,14 @@ module.exports = {
   },
   plugins: ['react', '@typescript-eslint', 'prettier'],
   rules: {
+    // prettier
     'prettier/prettier': ['error'],
+    // react
     'react/react-in-jsx-scope': 'off',
+    // next
+    '@next/next/no-img-element': 'off',
+  },
+  globals: {
+    JSX: true,
   },
 };
