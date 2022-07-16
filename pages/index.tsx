@@ -1,4 +1,4 @@
-import { Sidebar } from 'components';
+import { Feed, Sidebar } from 'components';
 import type { NextPage } from 'next';
 import Head from 'next/head';
 
@@ -11,7 +11,7 @@ const Home: NextPage = () => {
       </Head>
       <main>
         <Sidebar />
-        {/* Feed */}
+        <Feed />
         {/* Widgets */}
       </main>
     </div>
