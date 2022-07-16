@@ -13,7 +13,7 @@ import {
 export const Sidebar = () => {
   return (
     <div>
-      <img className="h-10 w-10" src="https://links.papareact.com/drq" alt="twitter home" />
+      <img className="h-10 w-10" src="/images/twitter.png" alt="twitter home" />
       <SidebarRow Icon={HomeIcon} title="Home" />
       <SidebarRow Icon={HashtagIcon} title="Explore" />
       <SidebarRow Icon={BellIcon} title="Notifications" />
